@@ -1,0 +1,71 @@
+
+  Id     Duration CommandLine
+  --     -------- -----------
+   1        0.007 cd .\intro_Infor\5\
+   2        0.062 ls
+   3        0.803 & '.\Actividad en clase 10 con Ubuntu.pdf'
+   4        0.037 ls
+   5        0.441 .\Checkpoint.pdf
+   6        0.030 ls
+   7        0.113 mkdir Checkpoint-19Agosto2023-LuiggiRodríguez\
+   8        0.033 ls
+   9        0.010 cd .\Checkpoint-19Agosto2023-LuiggiRodríguez\
+  10        0.007 cd ..
+  11        0.016 mv .\Checkpoint-19Agosto2023-LuiggiRodríguez\ …
+  12        0.033 ls
+  13        0.008 cd .\Checkpoint-19Agosto2023-LuiggiRodriguez\
+  14        0.005 ls
+  15        0.008 cd..
+  16        0.007 cd .\Checkpoint-19Agosto2023-LuiggiRodriguez\
+  17        0.096 git init
+  18        0.065 git status
+  19        0.059 git branch -M main
+  20        0.054 git status
+  21        0.059 git remote add origin https://github.com/luigg…
+  22        0.056 git remote -v
+  23        0.418 touch main.js
+  24        0.054 touch index.html
+  25        0.022 ls
+  26        0.068 git status
+  27        0.069 git add .
+  28        0.066 git status
+  29        0.140 git commit -m 'commit 01 de LuiggiRodriguez'
+  30        0.053 git status
+  31        3.163 git push -u origin main
+  32        0.058 git branch feature
+  33        0.183 git branch -a
+  34        0.106 git checkout feature
+  35        0.054 git status
+  36        0.017 mkdir Hardware
+  37        0.016 mkdir Software
+  38        0.017 mkdir SeguridadInformatica
+  39        0.030 ls
+  40        0.057 git status
+  41        0.052 touch .\Hardware\resumen.txt
+  42        0.054 touch .\SeguridadInformatica\resumen.txt
+  43        0.042 touch .\Software\resumen.txt
+  44        0.061 git status
+  45        0.063 git add .
+  46        0.054 git status
+  47        0.109 git commit -m 'commit 02 de LuiggiRodriguez'
+  48        1.877 git push origin feature
+  49        0.049 git status
+  50        0.088 git checkout main
+  51        0.052 git status
+  52        0.013 mv .\main.js resumenHardware.txt
+  53        0.007 mv .\index.html resumenSoftware.txt
+  54        0.021 ls
+  55        0.062 git status
+  56        0.015 ls
+  57        0.010 echo '- Chrome' > .\resumenSoftware.txt
+  58        0.003 echo '- Microsoft Excel' >> .\resumenSoftware.…
+  59        0.003 echo '- MySQL' >> .\resumenSoftware.txt
+  60        0.008 cat .\resumenSoftware.txt
+  61        0.003 echo '- Random Access Memory (RAM)' > .\resume…
+  62        0.003 echo '- Read-Only Memory (ROM)' >> .\resumenHa…
+  63        0.002 echo '- Memoria Cache (integrada en la CPU)' >…
+  64        0.004 cat .\resumenHardware.txt
+  65        0.016 ls
+  66        0.069 git status
+  67        0.058 touch comandos.txt
+

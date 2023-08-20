@@ -1,0 +1,3 @@
+- Random Access Memory (RAM)
+- Read-Only Memory (ROM)
+- Memoria Cache (integrada en la CPU)
